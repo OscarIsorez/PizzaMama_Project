@@ -1,8 +1,74 @@
-h1, li{
-    color:blue
 
+
+body {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/menu_background.jpg")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    margin:0px;
+    font-family: Arial;
 }
 
-body{
-    background:url("C:/Users/Oscar/OneDrive/Bureau/PizzaMama/PizzaMama_Project/pizzamama/menu/static/menu/images/menu_background.jpg") no repeat;
+.small_logo{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+h1{
+    color: #DD7835;
+    display: inline;
+    /* border-radius: 7px; */
+    padding: 2px 5px;
+    text-decoration: underline;
+    padding: 8px, 22px;
+}
+
+.menu_title{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.menu_list{
+    margin-left: 30px;
+}
+
+.menu_list_item{
+    margin:30px, 0;
+    margin-bottom: 20px;
+}
+
+.menu_list_title{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 350px;
+}
+.menu_list_prix{
+    font-size: 20px;
+    color:#DD7835;
+    display: inline-block;
+    width: 70px;
+    margin-left: 8px;
+    text-align: right;
+
+}
+.menu_list_ingredients{
+    font-size: 14px;
+    color: #c8c8c8;
+    display: block;
+    margin-top: 4px;
+}
+
+
+.menu_list_badge{
+    background-color: #DD7835;
+    color: black;
+    font-size: 9px;
+    padding: 3px 8px;
+    margin-top:4px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
 }
