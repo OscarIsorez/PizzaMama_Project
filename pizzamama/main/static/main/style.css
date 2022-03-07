@@ -18,13 +18,31 @@ body {
 }
 
 a {
+    width: 50%;
     display: block;
     text-align: center;
+    padding-bottom: 3px;
     color: red;
-    margin-top: 30px;
+    margin-top: 100px;
     font-size: 20px;
     background: linear-gradient(to right, #DD7835, red);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+    border: 3px solid;
+    border-radius:15px 15px;
+    text-decoration:none;
+
+    
 }
+
+
+
+
+a:hover {
+    color:#DD7835;
+    text-decoration:none;
+    transition: all .3s ease;
+    
+}
+
 
