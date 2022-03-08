@@ -35,14 +35,9 @@ a {
     
 }
 
-
-
-
 a:hover {
     color:#DD7835;
     text-decoration:none;
     transition: all .3s ease;
     
 }
-
-
